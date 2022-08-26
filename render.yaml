@@ -12,7 +12,7 @@ services:
     buildCommand: ./bin/render-build.sh
     startCommand: bundle exec puma -C config/puma.rb
     domains: # custom domains
-      - 'api3.freectech.com'
+      - 'test.freectech.com'
     envVars:
       - key: APPLE_CLIENT_ID # Imported from Heroku app
         value: asia.freec.freecNativeApp

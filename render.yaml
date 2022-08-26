@@ -9,6 +9,8 @@ services:
     plan: Free # optional; defaults to starter
     region: singapore
     numInstances: 1
+    repo: https://github.com/thiennghv0201/test1
+    branch: develop
     buildCommand: ./bin/render-build.sh
     startCommand: bundle exec puma -C config/puma.rb
     envVars:
